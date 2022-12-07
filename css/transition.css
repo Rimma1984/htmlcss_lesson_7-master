@@ -29,3 +29,35 @@
 background-color: blueviolet;
 border: 9px solid blue;
 }
+.block1, .block2, .block3, .block4, .block5 {
+    width: 100px;
+    height: 100px;
+    transition-duration: 1000ms;
+} 
+.block1 {
+    background-color: red;
+    transition-timing-function: linear;
+}
+.block2 {
+    background-color: blue;
+    transition-timing-function: ease-in;
+
+}
+.block3 {
+    background-color: green;
+    transition-timing-function: ease;
+
+}
+.block4 {
+    background-color: yellow;
+    transition-timing-function: ease-in-out;
+
+}
+.block5 {
+    background-color: fuchsia;
+    transition-timing-function: ease-out;
+
+}
+.parent:hover div {
+    transform: translateX(400px);
+}

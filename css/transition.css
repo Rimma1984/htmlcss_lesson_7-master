@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    margin: 30px 0 0 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: red;
+    border: 2px solid black;
+    text-align: center;
+    transition-duration: 2000ms, 250ms, 200ms;
+    transition-property: background-color, border, border-radius;
+    transition-delay: .5s;
+
+}
+.block:hover {
+    background-color: green;
+    border-radius: 50%;
+    color: blue;
+    text-align: center;
+    size: 46px;
+    border: 5px solid red;
+    /* transition-duration: 3500ms; */
+}
+.block:active {
+background-color: blueviolet;
+border: 9px solid blue;
+}

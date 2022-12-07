@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* смена положения по X Y */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* transform: translate(50px, 20px);  */
+    /* transform: scale(-0.9,1); */
+    position: relative;
+    /* transform: rotate(-160deg); */
+    /* transform: scale(1,1); */
+    transform-origin: left top;
+    transform: rotate(45deg) scaleX(2) translateY(40px);
+    top: 400px;
+    left: 400px;
+}
+/* Маштабирование */
+.box1 {
+
+}
